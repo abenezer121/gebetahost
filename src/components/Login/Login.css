@@ -1,0 +1,133 @@
+
+
+.login-box {
+    margin: 10% !important;
+    background: #fff;
+    width: 350px;
+    text-align: center;
+    height: auto;
+    margin: auto;
+    -webkit-box-shadow: 1px 2px 2px 4px rgba(0, 0, 0, .1), 2px 2px 2px rgba(0, 0, 0, .2);
+    box-shadow: 1px 2px 2px 4px rgba(0, 0, 0, .1), 2px 2px 2px rgba(0, 0, 0, .2);
+    padding-bottom: 1rem
+}
+
+.login-container {
+    padding: 2rem
+}
+
+.login-container h3 {
+    margin: 20px 0 30px;
+    text-transform: capitalize;
+    font-size: 24px
+}
+
+.input-field input {
+    padding: .8rem;
+    width: 100%;
+    border: 1px solid #ccc
+}
+
+input::-webkit-input-placeholder {
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #a0a3b0
+}
+
+input:-ms-input-placeholder {
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #a0a3b0
+}
+
+input::placeholder {
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #a0a3b0
+}
+
+.input-field .label {
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-between
+}
+
+label {
+    font-size: 13px;
+    font-weight: 700
+}
+
+.label small {
+    color: red;
+    text-transform: capitalize
+}
+
+.login-box .btn {
+    padding: .75rem;
+    width: 100%;
+    border-radius: 3px;
+    border: 2px solid #353d5a;
+    color: #353d5a;
+    background: transparent;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 5px;
+    -webkit-transition: .2s ease-in;
+    transition: .2s ease-in
+}
+
+.login-box .btn:hover {
+    -webkit-box-shadow: 1px 4px 7px rgba(0, 0, 0, .2);
+    box-shadow: 1px 4px 7px rgba(0, 0, 0, .2);
+    background: #353d5a;
+    color: #fff
+}
+
+.login-box .login {
+    border: 1px solid #d2f43c;
+    background: #daa520;
+    color: #fff;
+    margin-top: 1rem
+}
+
+.login-box .login:hover {
+    -webkit-box-shadow: 1px 4px 7px rgba(0, 0, 0, .2);
+    box-shadow: 1px 4px 7px rgba(0, 0, 0, .2);
+    background: #d43169
+}
+
+.terms {
+    font-size: 11px;
+    text-align: center
+}
+
+.register {
+    margin-top: 40px
+}
+
+.register span {
+    font-size: 12px
+}
+
+.divider {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    margin-bottom: 10px
+}
+
+.actions {
+    padding: 1rem;
+    display: flex;
+    grid-gap: 15px;
+    gap: 15px;
+    justify-content: center
+}
+
+.actions a {
+    font-size: 12px;
+    color: #fca4c2;
+    text-decoration: none
+}
+
+.actions a:hover {
+    color: #f43c7c
+}

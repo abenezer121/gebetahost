@@ -1,0 +1,180 @@
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    /* line 1, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+    .footer-wrappper {
+      padding: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* line 1, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+    .footer-wrappper {
+      padding: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 1, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+    .footer-wrappper {
+      padding: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 1, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+    .footer-wrappper {
+      padding: 0;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    /* line 1, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+    .footer-wrappper {
+      padding: 0;
+    }
+  }
+  
+  /* line 20, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-area .footer-pera p {
+    color: #C2C5DB;
+    padding-right: 52px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 1.8;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 20, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+    .footer-area .footer-pera p {
+      padding-right: 0px;
+    }
+  }
+  
+  /* line 33, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-area .footer-pera.footer-pera2 p {
+    padding: 0;
+  }
+  
+  /* line 38, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-area .footer-tittle h4 {
+    color: #1D2547;
+    font-size: 22px;
+    margin-bottom: 29px;
+    font-weight: 600;
+  }
+  
+  /* line 45, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-area .footer-tittle ul li {
+    margin-bottom: 15px;
+  }
+  
+  /* line 47, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-area .footer-tittle ul li a {
+    color: #646D77;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline transparent;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+  
+  /* line 53, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-area .footer-tittle ul li a:hover {
+    color: #1D2547;
+    text-decoration: underline;
+  }
+  
+  /* line 60, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-area .footer-tittle p {
+    color: #646D77;
+  }
+  
+  /* line 64, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-area .footer-form {
+    margin-top: 40px;
+  }
+  
+  /* line 66, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-area .footer-form form {
+    position: relative;
+  }
+  
+  /* line 68, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-area .footer-form form input {
+    width: 100%;
+    height: 43px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+  }
+  
+  /* line 76, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-area .footer-form form .form-icon button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    padding: 13px 22px;
+    line-height: 1;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /* line 91, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-area .info.error {
+    color: #367FFF;
+  }
+  
+  /* line 98, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-bottom-area .footer-border {
+    padding: 33px 0px 20px;
+  }
+  
+  /* line 103, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-bottom-area .footer-copy-right p {
+    color: #646D77;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 12px;
+  }
+  
+  /* line 109, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-bottom-area .footer-copy-right p i {
+    color: #367FFF;
+  }
+  
+  /* line 112, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-bottom-area .footer-copy-right p a {
+    color: #367FFF;
+  }
+  
+  /* line 125, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-social a {
+    color: #367FFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 8px;
+    border: 1px solid #367FFF;
+  }
+  
+  /* line 136, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-social a:hover {
+    color: #fff;
+    border: 1px solid transparent;
+    background: #367FFF;
+  }
+  
+  /* line 141, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
+  .footer-social a i {
+    display: inline-block;
+  }
+  

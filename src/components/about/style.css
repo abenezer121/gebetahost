@@ -1,0 +1,81 @@
+/*------------------------------------------------------------------
+    IMPORT FONTS
+-------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
+@import url('https://fonts.googleapis.com/css?family=Athiti:400,500,600');
+
+/*------------------------------------------------------------------
+    IMPORT FILES
+-------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------------------------
+    About
+-------------------------------------------------------------------*/
+
+.about-section-box {
+    padding: 70px 0px;
+}
+
+.about-section-box .img-fluid {
+    box-shadow: -10px -10px 0px #fd8000;
+}
+
+
+
+.inner-column h1 {
+    font-family: 'Arbutus Slab', serif;
+    font-size: 30px;
+    color: #010101;
+}
+
+.inner-column h1 span {
+    color: #fd8000;
+}
+
+.inner-column h4 {
+  
+  
+    font-family: 'Athiti', sans-serif;
+    line-height: 1.80857;
+    
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.inner-column p {
+
+    color: #666666;
+  
+    font-family: 'Athiti', sans-serif;
+    line-height: 1.80857;
+   
+    font-size: 18px;
+}
+
+.inner-column .btn-outline-new-white {
+    color: #fd8000;
+}
+
+.inner-column .btn-outline-new-white:hover {
+    color: #ffffff;
+}
+
+.inner-pt {
+    margin-top: 30px;
+}
+
+.inner-pt p {
+
+    color: #666666;
+   
+    font-family: 'Athiti', sans-serif;
+    line-height: 1.80857;
+    font-size: 18px;
+}
