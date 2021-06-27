@@ -1,27 +1,20 @@
 import React from "react";
 import {BrowserRouter as Router, Route , Switch} from "react-router-dom";
 import "./components/MainPage/MainPage.css";
-import {Header} from "./components/Header/Header";
-import {Footer} from "./components/Footer/Footer";
+
 import {MainPage} from "./components/MainPage/MainPage";
 import "./components/MenuType/MenuType.css";
-import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+
 import RestaurantPage from "./components/RestaurantPage/RestaurantPage";
 import {ProviderBasket} from "./components/ContextBasket/ContextBasket";
 import Cookies from 'js-cookie';
 import LoginForm from './components/Login/login'
 import Contact from './components/contact/contact'
 import About from './components/about/about'
-import PropTypes from "prop-types";
 import History from './components/History/History'
 import Profile from './components/Profile/Profile'
 import SignUp from './components/signup/signup'
-import NotFound from './components/NotFound/notfound'
 import  ForgetPass from './components/forget/forget'
-import ContactPage from "./pages/contact";
-import AboutPage from "./pages/about";
-import FaqsPage from "./pages/faqs";
-import SupportPage from "./pages/support";
 import IndexPage from "./pages";
 import { AnimatePresence } from "framer-motion";
 
