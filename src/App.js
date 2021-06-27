@@ -57,14 +57,14 @@ class App extends React.Component{
 
   render()  {
      
-      if(!Cookies.get('id') || Cookies.get('id') == 'null')
-      {
-          console.log("not allowed")
-         const allowed = ['/login' , '/register'  , '/forgetpass']
-        if(!allowed.includes(window.location.pathname)  ){
-            window.location.href = "http://localhost:3000/login";
-        }
-      }
+    //   if(!Cookies.get('id') || Cookies.get('id') == 'null')
+    //   {
+    //       console.log("not allowed")
+    //      const allowed = ['/login' , '/register'  , '/forgetpass']
+    //     if(!allowed.includes(window.location.pathname)  ){
+    //         window.location.href = "http://localhost:3000/login";
+    //     }
+    //   }
     return (
            <div>
         
