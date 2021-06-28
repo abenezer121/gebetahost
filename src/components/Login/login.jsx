@@ -31,7 +31,7 @@ class LoginForm extends React.Component {
       body: JSON.stringify({ username: username, password: password }),
     };
 
-    let urlcath = "http://localhost:5000/api/user/login";
+    let urlcath = "http://34.152.47.90/api/user/login";
     let cathResponse = fetch(urlcath, requestOptions)
       .then((response) => response.json())
       .then((responseJSON) => {
@@ -46,7 +46,7 @@ class LoginForm extends React.Component {
           this.props.history.push('/rest');
 
           //<Redirect to={{pathname: '/rest', }} />
-          // window.location.href = "http://localhost:3000/rest";
+          // window.location.href = "http://34.152.47.90/rest";
 
         } else if (
           responseJSON.error != null &&

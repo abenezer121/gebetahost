@@ -27,9 +27,9 @@ import Cookies from 'js-cookie';
         body: JSON.stringify(registration)
     };
   
-    console.log("hi there")
+    
 
-    let urlcath = 'http://localhost:5000/api/user/signup'  
+    let urlcath = 'http://34.152.47.90/api/user/signup'  
     let cathResponse = fetch(urlcath , requestOptions)
     .then((response) => response.json())
     .then((responseJSON) => {

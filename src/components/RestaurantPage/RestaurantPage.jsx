@@ -30,7 +30,7 @@ class RestaurantPage extends React.Component {
 
         try {
 
-            let urlfood = 'http://localhost:5000/api/item/returnCategory/' + this.props.location.state.uuid +'/'+Cookies.get('token')
+            let urlfood = 'http://34.152.47.90/api/item/returnCategoryWeb/' + this.props.location.state.uuid +'/'+Cookies.get('token')
             let foodRespnonse = await fetch(urlfood)
             let response = await foodRespnonse.json()
             console.log(response)
@@ -58,7 +58,7 @@ class RestaurantPage extends React.Component {
     searchFood(item){
   
       
-      let urlcath = 'http://localhost:5000/api/item/searchByName/' + this.props.location.state.uuid + '/' + item + '/' + Cookies.get('token')
+      let urlcath = 'http://34.152.47.90/api/item/searchByName/' + this.props.location.state.uuid + '/' + item + '/' + Cookies.get('token')
       let cathResponse = fetch(urlcath)
       .then((response) => response.json())
       .then((responseJSON) => {
@@ -74,7 +74,7 @@ class RestaurantPage extends React.Component {
 
       if(category == "All")
       {
-          let urlfood = 'http://localhost:5000/api/item/returnCategory/' + this.props.location.state.uuid +'/' + Cookies.get('token')
+          let urlfood = 'http://34.152.47.90/api/item/returnCategoryWeb/' + this.props.location.state.uuid +'/' + Cookies.get('token')
           let foodRespnonse = await fetch(urlfood)
           let response = await foodRespnonse.json()
           
@@ -84,7 +84,7 @@ class RestaurantPage extends React.Component {
       }
       else
       {
-        let urlcath = 'http://localhost:5000/api/item/seachCategory/' + this.props.location.state.uuid + '/' + category + '/' + Cookies.get('token')
+        let urlcath = 'http://34.152.47.90/api/item/seachCategory/' + this.props.location.state.uuid + '/' + category + '/' + Cookies.get('token')
         let cathResponse = fetch(urlcath)
         .then((response) => response.json())
         .then((responseJSON) => {

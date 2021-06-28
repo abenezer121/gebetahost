@@ -67,7 +67,7 @@ var geolocation = require('geolocation')
                };
    
    
-               let urlcath = 'http://localhost:5000/api/order/bookOrder'  
+               let urlcath = 'http://34.152.47.90/api/order/bookOrder'  
                let cathResponse = await fetch(urlcath , requestOptions)
                
                if(cathResponse.status == 400){

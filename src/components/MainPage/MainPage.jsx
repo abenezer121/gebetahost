@@ -43,7 +43,7 @@ export class MainPage extends React.PureComponent {
         const data = await this.getPosition()
         
 
-          let x = fetch('http://localhost:5000/api/reastaurant/nearbyrest/' + data.coords.latitude + '/' + data.coords.longitude +'/1' + '/' + Cookies.get('token'))
+          let x = fetch('http://34.152.47.90/api/reastaurant/nearbyrest/' + data.coords.latitude + '/' + data.coords.longitude +'/1' + '/' + Cookies.get('token'))
           .then((response) => response.json())
           .then((responseJSON) => {
           

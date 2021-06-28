@@ -15,7 +15,7 @@ class History extends React.Component {
 
   componentDidMount() {
     let x = fetch(
-      "http://localhost:5000/api/order/returnUserOrder/" +
+      "http://34.152.47.90/api/order/returnUserOrder/" +
         Cookies.get("id") +
         "/" +
         Cookies.get("token")

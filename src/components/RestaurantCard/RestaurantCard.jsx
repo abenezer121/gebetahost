@@ -22,7 +22,7 @@ class RestaurantCard extends React.Component {
   try {
 
     
-    let t = await fetch("http://localhost:5000/api/reastaurant/getRestImage", {
+    let t = await fetch("http://34.152.47.90/api/reastaurant/getRestImage", {
         method: 'POST', 
         headers: {'Accept': 'application/json',
             'Content-Type': 'application/json'}, 

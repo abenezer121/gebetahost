@@ -56,7 +56,7 @@ import Cookies from 'js-cookie';
   
 
 
-    let urlcath = 'http://localhost:5000/api/user/updateprofile'  
+    let urlcath = 'http://34.152.47.90/api/user/updateprofile'  
     let cathResponse = fetch(urlcath , requestOptions)
     .then((response) => response.json())
     .then((responseJSON) => {
